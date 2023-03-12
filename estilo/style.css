@@ -1,0 +1,157 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+:root {
+    --cor1: #FFF2E7;
+    --cor2: #ECD6C4;
+    --cor3: #8E5D52;
+    --cor4: #2f2325;
+
+    --fonte-destaque:'Merriweather Sans', sans-serif;
+    --fonte-padrao:'Oswald', sans-serif;
+    
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body {
+    font-size: 100%;
+    
+    background: linear-gradient(68.15deg, var(--cor4), var(--cor3) 85.61%);
+}
+
+header {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.logo {
+    height: 70px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+.navegar {
+    color: var(--cor1);
+    font-size: 16px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+    
+}
+
+.navegar > a:hover {
+    background-color: var(--cor4);
+    color: var(--cor1);
+}
+
+main {
+    border-top: 0.4px solid var(--cor1);
+    margin-bottom: 48px;
+    
+}
+
+.primeiraparte {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.conteudoescrito {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.titulo1 {
+    font-family: var(--fonte-destaque);
+    font-weight: 400;
+    font-size: 52px;
+    color: var(--cor1);
+}
+
+.titulo2 {
+    font-family: "Saral", sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+    color: var(--cor1);
+    margin-bottom: 12px;
+}
+
+.botao {
+    background-color: var(--cor2);
+    width: 150px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.253);
+    font-family: "Sarala", sans-serif;
+    font-weight: 400px;
+    color: #2f2325;
+    font-size: 20px;
+    
+
+}
+
+.botao:hover {
+    background-color: var(--cor4);
+    color: var(--cor1);
+}
+
+.bot {
+    height: 330px;
+}
+
+.conteudo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.titulo3 {
+    border-top: 1px solid var(--cor1);
+    padding-top: 48px;
+    font-weight: 400px;
+    font-family: "Righteous";
+    font-size: 25px;
+    color: var(--cor1);
+    margin-bottom: 15px;
+}
+
+.top1 {
+    color: var(--cor1);
+    font-weight: normal;
+    font-size: 18px;
+    font-family: "Sarala";
+}
+
+footer {
+    padding: 32px;
+    border-top: 0.4px solid var(--cor1);
+}
+
+.rodape {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
